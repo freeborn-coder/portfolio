@@ -604,6 +604,18 @@ video {
 .h-\[600px\] {
 	height: 600px;
 }
+.h-\[500px\] {
+	height: 500px;
+}
+.min-h-screen {
+	min-height: 100vh;
+}
+.min-h-\[50vh\] {
+	min-height: 50vh;
+}
+.min-h-\[60vh\] {
+	min-height: 60vh;
+}
 .w-2\/3 {
 	width: 66.666667%;
 }
@@ -825,6 +837,14 @@ video {
 		width: 33.333333%;
 	}
 
+	.md\:w-3\/4 {
+		width: 75%;
+	}
+
+	.md\:w-full {
+		width: 100%;
+	}
+
 	.md\:flex-row-reverse {
 		flex-direction: row-reverse;
 	}
@@ -866,5 +886,23 @@ video {
 
 	.landscape\:w-2\/5 {
 		width: 40%;
+	}
+
+	.landscape\:w-3\/5 {
+		width: 60%;
+	}
+}
+
+@media (orientation: landscape) and (min-width: 768px) {
+
+	.landscape\:md\:w-2\/5 {
+		width: 40%;
+	}
+}
+
+@media (orientation: landscape) and (min-width: 768px) {
+
+	.landscape\:md\:w-3\/5 {
+		width: 60%;
 	}
 }
