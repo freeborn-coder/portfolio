@@ -7,7 +7,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'rowdies':['rowdies']
+        'roboto':['Roboto']
+      },
+      colors:{
+        'primary-dark':'#221C31',
+        'line-color':'#4D416A',
+        'medium-grey':'#969696'
       }
     },
   },
