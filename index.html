@@ -23,30 +23,30 @@
 
     <header class="mb-20">
         <nav class="text-gray-400">
-            <i class="fas fa-bars text-2xl sm:hidden"></i>
-            <ul class="hidden sm:flex w-2/3 lg:w-1/3 justify-between font-semibold">
-                <li class="active cursor-default">Home</li>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Articles</li>
-                <li>Contact</li>
+            <!-- side menu -->
+            <i class="fas fa-bars text-2xl sm:hidden cursor-pointer" id="menuToggle" onclick="toggleMenu()"><!--MENU--></i>
+            <ul id="sidenav" class="w-[320px] left-[-320px] fixed inset-y-0 bg-[#2b243b] sm:left-0 sm:bg-transparent sm:static sm:flex sm:w-2/3 lg:w-1/3 justify-between font-semibold transition-all duration-1000 closed">
+                <li class="block py-3 px-5 font-bold text-right sm:hidden"><span class="font-bold text-4xl cursor-pointer hover:text-white" onclick="toggleMenu()">&times;</span></li>
+                <li class="block py-3 px-5 hover:text-white hover:bg-black hover:cursor-pointer transition-colors duration-500 active cursor-default">Home</li>
+                <li class="block py-3 px-5 hover:text-white hover:bg-black hover:cursor-pointer transition-colors duration-500"><a href="/about.html">About</a></li>
+                <li class="block py-3 px-5 hover:text-white hover:bg-black hover:cursor-pointer transition-colors duration-500"><a href="/portfolio.html">Portfolio</a></li>
+                <li class="block py-3 px-5 hover:text-white hover:bg-black hover:cursor-pointer transition-colors duration-500"><a href="/articles.html">Articles</a></li>
+                <li class="block py-3 px-5 hover:text-white hover:bg-black hover:cursor-pointer transition-colors duration-500"><a href="/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-<br>
-    <main class="h-[65vh] mt-10 mx-2 md:flex md:justify-evenly md:items-center md:flex-row-reverse">
+
+    <main class="min-h-[60vh] mt-10 mx-2 md:flex md:justify-evenly md:items-center md:flex-row-reverse">
     
         <div class="md:w-1/2 flex justify-center">
-            <img src="img/me.jpg" alt="freeborn iwarri" class="rounded-full shadow-xl sm:w-2/3 w-1/2">
+            <img src="img/me.jpg" alt="freeborn iwarri" class="rounded-full shadow-xl w-2/3 landscape:w-3/5 landscape:md:w-3/5">
         </div>
         
         <div class="md:w-1/2 mt-5 md:mt-0">
             <p class="mb-1">Hello there,</p>
-            <h1 class="font-bold text-4xl">I'm Freeborn Iwarri</h1><br>
-            <p class="text-lg">I solve problems using the tools and techniques of Software Engineering. 
-                I solve problems using the tools and techniques of Software Engineering. 
-                I solve problems using the tools and techniques of Software Engineering.
-            </p> 
+            <h1 class="font-bold text-4xl">I'm Freeborn Iwarri.</h1><br>
+            <p class="text-lg">I solve problems using the tools and techniques of Software Engineering.</p> 
+            <p class="text-lg">I have experience building web and mobile applications. I enjoy movies, music, anime</p> 
         </div>
     </main>
 
@@ -62,5 +62,20 @@
         </div>
     </footer>
 
+    <script>
+        const toggleMenu = () => {
+            let nav = document.querySelector('#sidenav');
+            // let marginLeft = nav.style.marginLeft;
+            
+            if(nav.classList.contains('closed')){
+                nav.style.left = '0px';
+                nav.classList.replace('closed','opened');
+            }else if(nav.classList.contains('opened')){
+                nav.style.left = '-320px';
+                nav.classList.replace('opened','closed');
+            }
+            
+        }
+    </script>
 </body>
 </html>
