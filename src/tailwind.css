@@ -7,6 +7,6 @@
     color:white;
 }
 
-.sidenav-link{
+.nav-item{
     @apply block py-3 px-5 hover:text-white hover:bg-black hover:cursor-pointer transition-colors duration-500;
 }
