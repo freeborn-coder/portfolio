@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freeborn Iwarri</title>
+    <title>Portfolio - Freeborn Iwarri</title>
 
     <!-- import roboto font -->
     <style>
@@ -19,48 +19,54 @@
 
 </head>
 
-<body class="bg-primary-dark p-5 sm:p-8 md:px-20 text-white font-roboto">    
+<body class="bg-primary-dark p-5 sm:p-10 md:px-20 text-white font-roboto">    
 
     <header class="mb-20">
         <nav class="text-gray-400">
             <!-- side menu -->
             <div class="sm:hidden grid grid-cols-3">
-                <p>
-                    <i class="fas fa-bars text-2xl cursor-pointer self-start" id="menuToggle" onclick="toggleMenu()"></i>
-                </p>
-                <p class="pt-2 place-self-center font-semibold text-gray-500 w-10">Home</p>
+                <p><i class="fas fa-bars text-2xl cursor-pointer self-start" id="menuToggle" onclick="toggleMenu()"></i></p>
+                <p class="pt-2 place-self-center font-semibold text-gray-500 w-10">Services</p>
             </div>
+
             <ul id="sidenav" class="w-[320px] left-[-320px] fixed inset-y-0 bg-[#2b243b] sm:left-0 sm:bg-transparent sm:static sm:flex sm:w-2/3 lg:w-1/3 justify-between font-semibold transition-all duration-1000 closed">
                 <li class="block py-3 px-5 font-bold text-right sm:hidden"><span class="font-bold text-4xl cursor-pointer hover:text-white" onclick="toggleMenu()">&times;</span></li>
-                <li class="nav-item active !cursor-default">Home</li>
-                <li><a class="nav-item" href="/about.html">About</a></li>
-                <li><a class="nav-item" href="/projects.html">Projects</a></li>
-                <li class="nav-item cursor-pointer"><a href="/services.html">Services</a></li>
-                <!-- <li><a class="nav-item" href="/articles.html">Articles</a></li> -->
-                <li><a class="nav-item" href="/contact.html">Contact</a></li>
+                <li class="nav-item"><a href="/index.html">Home</li>
+                <li class="nav-item"><a href="/about.html">About</a></li>
+                <li class="nav-item cursor-default"><a href="/projects.html">Projects</a></li>
+                <li class="nav-item active cursor-default"><a href="#">Services</a></li>
+                <!-- <li class="nav-item"><a href="/contact.html">Articles</a></li> -->
+                <li class="nav-item"><a href="/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="min-h-[60vh] mx-2 md:flex md:justify-evenly md:items-center md:flex-row-reverse">
-    
-        <div class="md:w-1/2 flex justify-center">
-            <img src="img/me.jpg" alt="freeborn iwarri" class="rounded-full shadow-xl w-2/3 landscape:w-3/5 landscape:md:w-3/5">
-        </div>
+    <main class="min-h-[60vh] mt-10 mx-2">
         
-        <div class="md:w-1/2 mt-5 md:mt-0">
-            <p class="mb-1">Hello there,</p>
-            <h1 class="font-bold text-3xl sm:text-4xl">I'm Freeborn Iwarri.</h1><br>
-            <!-- <p class="text-lg">I solve problems using the tools and techniques of Software Engineering.</p>  -->
-            <p class="text-lg mb-2">I am a fullstack developer with experience building web applications using Laravel, MySQL and Vue Js. I also build android apps using Flutter and Java.</p> 
-            <!-- <p class="text-lg mb-2">I also build mobile apps using Flutter and Java.</p> <br> -->
-            <p class="text-lg">In my free time, I play video games, listen to music, or read programming books.</p> 
-            <br><br>
-            <a href="/contact.html" class="rounded bg-[#FE332E] text-white font-semibold w-full md:w-1/2 mx-auto px-5 py-3">CONTACT ME<a/>
-            <br><br>
+        <h2 class="font-bold text-2xl mb-20">I provide all these services:</h2><br>             
+        
+        <div>
+            <p>Frontend Development</p>
+            <div>
+                I develop frontend web apps using vue js, I can develop convert figma or Adobe XD designs to responsive html, css and Javascript.
+            </div>
         </div>
-    </main>
+        <br><br>
+        <div>
+            <p>Backend Development</p>
+            <div>
+                I can develop REST APIs for Single Page Applications and mobile applications.
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <p>Android Development</p>
+            <div>
+                I develop mobile apps (Android) using flutter.
+            </div>
+        </div>
     
+    </main>
 
     <footer>
         <div class="mt-10 mb-5">
@@ -75,7 +81,9 @@
     </footer>
 
     <script>
-        const toggleMenu = () => {
+        // window.onload = () => console.log('ready');
+        
+        const toggleMenu = function(){
             let nav = document.querySelector('#sidenav');
             // let marginLeft = nav.style.marginLeft;
             
