@@ -1,22 +1,58 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
+  "private": true,
   "description": "",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=development postcss ./src/tailwind.css -o ./dist/tailwind.css -w",
-    "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./dist/tailwind.css"
+  "author": {
+    "name": "Freeborn Iwarri"
   },
-  "keywords": [],
-  "author": "Freeborn Iwarri",
-  "license": "ISC",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "NODE_ENV=development postcss ./src/tailwind.css -o ./public/tailwind.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.html",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.2.10"
+  },
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.10",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.2.10",
+    "autoprefixer": "^9.8.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "postcss": "^7.0.36",
     "postcss-cli": "^8.3.1",
     "precss": "^4.0.0",
-    "tailwindcss": "^2.1.1"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.10"
   },
-  "dependencies": {}
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "my-portfolio@1.0.0",
+  "keywords": [],
+  "license": "ISC",
+  "readme": "ERROR: No README data found!"
 }

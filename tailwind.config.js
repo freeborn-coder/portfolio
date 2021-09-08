@@ -1,7 +1,8 @@
 module.exports = {
   mode: 'jit',
   purge: [
-    './*.html'
+    './*.html',
+    './**/*.vue'
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
