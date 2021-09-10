@@ -1,12 +1,12 @@
 import { createApp,h } from 'vue'
-import App from './App.vue'
+import Home from './Pages/Home.vue'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Projects from './Pages/Projects'
 
 // simple routes
 const routes = {
-    '/': App,
+    '/': Home,
     '/about': About,
     '/contact':Contact,
     '/projects':Projects

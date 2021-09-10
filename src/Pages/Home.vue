@@ -4,7 +4,7 @@
   <main class="min-h-[60vh] mx-2 md:flex md:justify-evenly md:items-center md:flex-row-reverse">
     
         <div class="md:w-1/2 flex justify-center">
-            <img src="./assets/img/me.jpg" alt="freeborn iwarri" class="rounded-full shadow-xl w-2/3 landscape:w-3/5 landscape:md:w-3/5">
+            <img src="@/assets/img/me.jpg" alt="freeborn iwarri" class="rounded-full shadow-xl w-2/3 landscape:w-3/5 landscape:md:w-3/5">
         </div>
         
         <div class="md:w-1/2 mt-5 md:mt-0">
@@ -33,7 +33,7 @@ import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
-  name: 'App',
+  name: 'Home',
   components: {
     Header,Footer
   },
