@@ -17,13 +17,13 @@
                 <p class="flex items-center">
                     <a target="_blank" href="https://github.com/freeborn-coder/followers-manager"><i class="fab fa-github fa-3x mr-6" title="view on github"></i></a>
                     <a target="_blank" href="https://play.google.com/store/apps/details?id=com.gananidevs.followersmanagerfortwitter&hl=en&gl=US">
-                        <img class="w-[200px] shadow-xl" src="@/assets/img/googleplay.png" alt="" title="view on google play">
+                        <img class="w-[200px] filter drop-shadow-xl" src="@/assets/img/googleplay.png" alt="" title="view on google play">
                     </a>
                 </p>
             </div>
             <div class="md:w-1/2 flex sm:justify-start">
-                <img class="h-[300px] md:h-[400px] aspect mx-2 md:mx-10 rounded-md shadow-xl" src="@/assets/img/home.png" alt="followers manager screenshot">
-                <img class="h-[300px] md:h-[400px] md:mx-10 rounded-md shadow-xl" src="@/assets/img/home.png" alt="followers manager screenshot">  
+                <img class="h-[300px] md:h-[400px] aspect mx-2 md:mx-10 rounded-md filter drop-shadow-xl" src="@/assets/img/home.png" alt="followers manager screenshot">
+                <img class="h-[300px] md:h-[400px] md:mx-10 rounded-md filter drop-shadow-xl" src="@/assets/img/home.png" alt="followers manager screenshot">  
             </div>
         </div>
         
@@ -42,16 +42,18 @@
                 <p class="flex items-center mb-4">
                     <a target="_blank" href="https://github.com/freeborn-coder/portfolio"><i class="fab fa-github fa-3x mr-6" title="view on github"></i></a>
                     <a target="_blank" href="https://www.figma.com/file/RmYOvi1afuI6Mw2EZD4Oqt/My-portfolio?node-id=230%3A3">
-                        <i class="fab fa-figma fa-3x text-gray-200 shadow-2xl" title="view figma design"></i>
+                        <i class="fab fa-figma fa-3x text-gray-200 filter drop-shadow-2xl" title="view figma design"></i>
                     </a>
                 </p>
             </div>
             <div class="md:w-1/2 sm:flex sm:justify-start items-center">
+
                 <div>
-                    <img class="w-[290px] md:w-[400px] mb-3 h-auto mx-2 md:mx-10 rounded-md shadow-2xl" src="@/assets/img/portfolio-desktop.png" alt="followers manager screenshot">
+                    <img class="w-[290px] md:w-[400px] mb-3 h-auto mx-2 md:mx-10 rounded-md filter drop-shadow-2xl" src="@/assets/img/portfolio-desktop.png" alt="followers manager screenshot">
                 </div>
+                
                 <div class="hidden md:block">
-                    <img class="h-[350px] md:h-[400px] md:mx-10 rounded-md shadow-xl" src="@/assets/img/portfolio-mobile-mockup.png" alt="followers manager screenshot">  
+                    <img class="h-[350px] md:h-[400px] md:mx-10 rounded-md filter drop-shadow-xl" src="@/assets/img/portfolio-mobile-mockup.png" alt="followers manager screenshot">  
                 </div>
             </div>
         </div>
