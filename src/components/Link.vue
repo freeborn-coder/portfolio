@@ -1,5 +1,5 @@
 <template>
-    <a :href="to" @click.prevent="navigate" class="nav-item">
+    <a :href="to" @click.prevent="navigate" class="nav-item" :class="isActive ? 'active':''">
         <slot></slot>
     </a>
 </template>
@@ -8,6 +8,11 @@
     export default {
         name:'Link',
         props:['to'],
+        computed:{
+            isActive(){
+                return this.$root.currentRoute == this.to;
+            }
+        },
         methods:{
             navigate(){
                 this.$emit('navigation');
