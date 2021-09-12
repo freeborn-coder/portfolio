@@ -34,9 +34,9 @@
             <div class="md:w-1/2 flex flex-col justify-center pb-4">
                 <h5 class="font-semibold text-xl mb-5">My Personal Portfolio</h5>
                 <p class="leading-8">
-                    The website you're currently viewing was designed and developed by me. I created the UI designs using the
-                    Figma and developed the website using HTML5 and Tailwind CSS.
-                    I intend to convert it to Vue JS.
+                    The website you're currently viewing was designed and developed by me. I created the UI designs with
+                    Figma and developed the website using Vue JS and Tailwind CSS. This websites serves as an avenue for potential clients 
+                    and employers to get more information about me, my skills and experience. It also provides a way to contact me.
                 </p>
                 <br>
                 <p class="flex items-center mb-4">
