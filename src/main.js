@@ -3,15 +3,13 @@ import Home from './Pages/Home.vue'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Projects from './Pages/Projects'
-import Services from './Pages/Services'
 
 // simple routes
 const routes = {
     '/': Home,
     '/about': About,
     '/contact':Contact,
-    '/projects':Projects,
-    '/services':Services
+    '/projects':Projects
 }
   
 const SimpleRouter = {

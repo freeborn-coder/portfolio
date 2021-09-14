@@ -28,9 +28,6 @@
                     <Link to="/projects" @navigation="closeSidebar">Projects</Link>
                 </li>
                 <li>
-                    <Link to="/services" @navigation="closeSidebar">Services</Link>
-                </li>
-                <li>
                     <Link to="/contact" @navigation="closeSidebar">Contact</Link>
                 </li>
             </ul>
