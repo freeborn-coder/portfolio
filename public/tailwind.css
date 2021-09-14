@@ -869,8 +869,15 @@ video {
 	--tw-drop-shadow: drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03)) drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08));
 	filter: var(--tw-filter);
 }
+.drop-shadow-2xl {
+	--tw-drop-shadow: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.15));
+	filter: var(--tw-filter);
+}
 .grayscale {
 	--tw-grayscale: grayscale(100%);
+	filter: var(--tw-filter);
+}
+.filter {
 	filter: var(--tw-filter);
 }
 .transition-all {
