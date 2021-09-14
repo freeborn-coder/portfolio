@@ -9,7 +9,7 @@
                     <i class="fas fa-bars text-2xl cursor-pointer self-start"
                     @click="openSidebar"></i>
                 </p>
-                <p class="pt-2 place-self-center font-semibold text-gray-500 w-10">Home</p>
+                <p class="pt-2 place-self-center font-semibold text-gray-500 w-10">{{ currentPage }}</p>
             </div>
 
             <ul id="sidenav" ref="sidenav" 
@@ -27,7 +27,9 @@
                 <li>
                     <Link to="/projects" @navigation="closeSidebar">Projects</Link>
                 </li>
-                
+                <li>
+                    <Link to="/services" @navigation="closeSidebar">Services</Link>
+                </li>
                 <li>
                     <Link to="/contact" @navigation="closeSidebar">Contact</Link>
                 </li>
@@ -54,6 +56,12 @@
             },
             closeSidebar(){
                 if(this.isOpen) this.isOpen = false;
+            }
+        },
+        computed:{
+            currentPage(){
+                let page = window.location.pathname.substring(1);
+                return page ? page.charAt(0).toUpperCase() + page.substring(1) : 'Home';
             }
         },
         created(){
