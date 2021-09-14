@@ -1064,6 +1064,10 @@ video {
 		width: 400px;
 	}
 
+	.md\:w-1\/5 {
+		width: 20%;
+	}
+
 	.md\:flex-row-reverse {
 		flex-direction: row-reverse;
 	}
