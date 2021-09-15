@@ -18,11 +18,13 @@
                     <!-- <a target="_blank" href="https://github.com/freeborn-coder/followers-manager"><i class="fab fa-github fa-3x mr-6" title="view on github"></i></a> -->
                     
                     <a href="https://github.com/freeborn-coder/followers-manager"
-                        class="rounded bg-[#FE332E] text-white font-semibold mr-4 px-5 py-3">
-                        View source code <i class="ml-2 fab fa-github"></i>
+                        class="font-semibold px-4 py-2 rounded bg-transparent text-white border-2 
+                        border-white hover:bg-gray-100 hover:text-black transition-colors duration-150">
+                        View code <i class="fab fa-github"></i>
                     </a>
+                    &nbsp;&nbsp;
                     <a target="_blank" href="https://play.google.com/store/apps/details?id=com.gananidevs.followersmanagerfortwitter&hl=en&gl=US">
-                        <img class="w-[200px] filter drop-shadow-xl" src="@/assets/img/googleplay.png" alt="" title="view on google play">
+                        <img class="w-[180px] sm:w-[200px] filter drop-shadow-xl" src="@/assets/img/googleplay.png" alt="" title="view on google play">
                     </a>
                 </p>
             </div>
@@ -47,10 +49,12 @@
                 <p class="flex items-center mb-4">
                     <!-- <a target="_blank" href="https://github.com/freeborn-coder/portfolio"><i class="fab fa-github fa-3x mr-6" title="view on github"></i></a> -->
                     <a href="https://github.com/freeborn-coder/portfolio"
-                        class="rounded bg-[#FE332E] text-white font-semibold mr-8 px-5 py-3">
-                        View source code <i class="ml-2 fab fa-github"></i>
+                        class="font-semibold px-4 py-2 rounded bg-transparent text-white border-2 
+                        border-white hover:bg-gray-100 hover:text-black transition-colors duration-150">
+                        View code <i class="fab fa-github"></i>
                     </a>
-                    <a target="_blank" class="font-semibold px-5 py-[0.6rem] rounded bg-transparent text-white border-2 
+                    &nbsp;&nbsp;
+                    <a target="_blank" class="font-semibold px-4 py-2 rounded bg-transparent text-white border-2 
                         border-white hover:bg-gray-100 hover:text-black transition-colors duration-150"
                         href="https://www.figma.com/file/RmYOvi1afuI6Mw2EZD4Oqt/My-portfolio?node-id=230%3A3">
                         View design <i class="fab fa-figma filter drop-shadow-2xl" title="view figma design"></i>

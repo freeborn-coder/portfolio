@@ -47,7 +47,7 @@ export default {
                     {
                         to: [{"email": "freeborniwarri@gmail.com"}],
                         dynamic_template_data:{
-                            sender:`${this.from} (${this.email})`,
+                            sender:`${this.fullname} (${this.email})`,
                             message:`${this.message}`
                         }
                     }
