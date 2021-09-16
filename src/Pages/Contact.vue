@@ -4,6 +4,13 @@
     
         <div class="sm:w-2/3 md:w-2/3 lg:w-2/5 mx-auto">
            <h3 class="font-semibold text-xl sm:text-2xl mb-3">Do you have any gig or project that matches my skill set? Feel free to hit me up..</h3> <br>
+            
+            <div v-if="errorResponse" class="bg-red-200 text-red-600 p-3 rounded-xl shadow font-semibold mb-10 absolute top-10 right-10">
+                {{ errorResponse }}
+            </div>
+            <div v-if="successResponse" class="bg-green-200 text-green-600 p-3 rounded-xl shadow font-semibold mb-10 absolute top-10 right-10">
+                {{ successResponse }}
+            </div>
 
             <form @submit.prevent="sendEmail">
                 <input required type="text" name="fullname" v-model="fullname" placeholder="Your fullame" class="rounded-md w-full px-3 py-2 bg-[#e1e1e1] placeholder-gray-500 text-gray-800 mb-6">
@@ -32,14 +39,41 @@ export default {
             fullname:'',
             subject:'',
             message:'',
-            email:''
+            email:'',
+            errorResponse:'',
+            successResponse:''
+        }
+    },
+    watch:{
+        errorResponse: function(newValue){
+            if(newValue) setTimeout(()=> (this.errorResponse = ''),3000);
+        },
+        successResponse:function(newValue){
+            if(newValue) setTimeout(() => (this.successResponse = ''),3000);
         }
     },
     methods:{
         async sendEmail(){
 
-            
+            try{
 
+                let res = await fetch('https://ganani-mail-sender.herokuapp.com/index.php',{
+                    method:'POST',
+                    mode:'cors',
+                    body:JSON.stringify({
+                        'email': this.email,
+                        'fullname': this.fullname,
+                        'message': this.message,
+                        'subject': this.subject
+                    })
+                });
+                
+                this.successResponse = res.data.message;
+
+            }catch(err){
+                this.errorResponse = 'There was a problem. Try again';
+            }
+            
         }
     }
 }
