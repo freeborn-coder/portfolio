@@ -23,7 +23,6 @@
 <script>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import axios from 'axios'
 
 export default {
     name:'Contact',
@@ -39,26 +38,8 @@ export default {
     methods:{
         async sendEmail(){
 
-            axios.defaults.headers.common['Authorization'] = 'Bearer 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';
-            axios.defaults.headers.common['Content-Type'] = 'application/json';
 
-            const data = {
-                personalizations: [
-                    {
-                        to: [{"email": "freeborniwarri@gmail.com"}],
-                        dynamic_template_data:{
-                            sender:`${this.fullname} (${this.email})`,
-                            message:`${this.message}`
-                        }
-                    }
-                ],
-                from: {"email": `${this.email}`},
-                subject: `${this.subject}`,
-                template_id:'d-af438611510849048b3467fe2cab124c'
-            }
 
-            let res = await axios.post('http://api.sendgrid.com/v3/mail/send/',data);
-            console.log('response: ',res);
         }
     }
 }

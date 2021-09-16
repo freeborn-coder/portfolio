@@ -14,6 +14,32 @@
                 <p class="text-lg">I have a passion for programming. I am always committed to growth and development which is why I spend a lot of time and resources to improve my skills  take my craft to the highest possible level.</p> 
             </div>
             <hr class="my-10 border-line-color">
+
+            <h2 class="font-bold text-2xl">Work History</h2><br>
+            <div class="flex items-center cursor-pointer" onclick="location.href = 'https://adscerts.com/scholar/8E39106A70539BF8'">
+                <div class="w-1/10 bg-red-500">
+                    <img class="h-[100px] rounded" src="https://media-exp1.licdn.com/dms/image/C4D0BAQE8sISjiw_6aA/company-logo_100_100/0/1570014936073?e=1636588800&v=beta&t=nR2KOEUUMCXvFeV82JWx0H4Tl9zZn4kvYT4gzeBIeCI" alt="Dreamlabs Abuja">
+                </div>
+                <div class="ml-5 w-2/3">
+                    <p class="text-lg font-semibold mb-1">DreamLabs Nigeria Limited</p> 
+                    <p class="mb-1">Software Engineer</p>
+                    <p>June 2021 - Present</p>
+                </div>
+            </div>
+            <br>
+            <div class="flex items-center cursor-pointer" onclick="location.href = 'https://adscerts.com/scholar/8E39106A70539BF8'">
+                <div class="w-1/10 bg-red-500">
+                    <img class="h-[100px] rounded" src="https://media-exp1.licdn.com/dms/image/C4D0BAQE8sISjiw_6aA/company-logo_100_100/0/1570014936073?e=1636588800&v=beta&t=nR2KOEUUMCXvFeV82JWx0H4Tl9zZn4kvYT4gzeBIeCI" alt="Dreamlabs Abuja">
+                </div>
+                <div class="ml-5 w-2/3">
+                    <p class="text-lg font-semibold mb-1">DreamLabs Nigeria Limited</p> 
+                    <p class="mb-1">Software Engineering Intern</p>
+                    <p>Dec 2020 - June 2021</p>
+                </div>
+            </div>
+
+            <hr class="my-10 border-line-color">
+
             <div class="mt-5 md:mt-0">
                 <h2 class="font-bold text-2xl">Education</h2><br>
                 <div class="flex items-center">
@@ -55,30 +81,7 @@
                 </div>
 
             </div>
-            <hr class="my-10 border-line-color">
-
-            <h2 class="font-bold text-2xl">Work History</h2><br>
-            <div class="flex items-center cursor-pointer" onclick="location.href = 'https://adscerts.com/scholar/8E39106A70539BF8'">
-                <div class="w-1/10 bg-red-500">
-                    <img class="h-[100px] rounded" src="https://media-exp1.licdn.com/dms/image/C4D0BAQE8sISjiw_6aA/company-logo_100_100/0/1570014936073?e=1636588800&v=beta&t=nR2KOEUUMCXvFeV82JWx0H4Tl9zZn4kvYT4gzeBIeCI" alt="Dreamlabs Abuja">
-                </div>
-                <div class="ml-5 w-2/3">
-                    <p class="text-lg font-semibold mb-1">DreamLabs Nigeria Limited</p> 
-                    <p class="mb-1">Software Engineer</p>
-                    <p>June 2021 - Present</p>
-                </div>
-            </div>
-            <br>
-            <div class="flex items-center cursor-pointer" onclick="location.href = 'https://adscerts.com/scholar/8E39106A70539BF8'">
-                <div class="w-1/10 bg-red-500">
-                    <img class="h-[100px] rounded" src="https://media-exp1.licdn.com/dms/image/C4D0BAQE8sISjiw_6aA/company-logo_100_100/0/1570014936073?e=1636588800&v=beta&t=nR2KOEUUMCXvFeV82JWx0H4Tl9zZn4kvYT4gzeBIeCI" alt="Dreamlabs Abuja">
-                </div>
-                <div class="ml-5 w-2/3">
-                    <p class="text-lg font-semibold mb-1">DreamLabs Nigeria Limited</p> 
-                    <p class="mb-1">Software Engineering Intern</p>
-                    <p>Dec 2020 - June 2021</p>
-                </div>
-            </div>
+            
         </div>
 
     </main>
