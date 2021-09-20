@@ -56,16 +56,15 @@ export default {
         async sendEmail(){
 
             try{
+                let data = new FormData();
+                data.append('email',this.email);
+                data.append('fullname',this.fullname);
+                data.append('message',this.message);
+                data.append('subject',this.subject);
 
                 let res = await fetch('https://ganani-mail-sender.herokuapp.com/index.php',{
                     method:'POST',
-                    mode:'cors',
-                    body:JSON.stringify({
-                        'email': this.email,
-                        'fullname': this.fullname,
-                        'message': this.message,
-                        'subject': this.subject
-                    })
+                    body:data
                 });
                 
                 this.successResponse = res.data.message;
