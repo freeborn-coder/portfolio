@@ -68,10 +68,10 @@ export default {
                             body:data
                         });
                 
-                console.log(res);
-                this.successResponse = res;
+                res = await res.json();
+                this.successResponse = res.data.message;
 
-            }catch(err){a
+            }catch(err){
                 this.errorResponse = 'There was a problem. Try again';
             }
             
