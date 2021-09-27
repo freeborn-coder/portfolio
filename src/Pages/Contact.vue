@@ -71,7 +71,7 @@ export default {
                 console.log(res);
                 this.successResponse = res;
 
-            }catch(err){
+            }catch(err){a
                 this.errorResponse = 'There was a problem. Try again';
             }
             

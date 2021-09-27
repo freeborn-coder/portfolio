@@ -11,7 +11,23 @@
         <div class="md:w-1/2">
             <div class="mt-5 md:mt-0">
                 <h2 class="font-bold text-2xl">So who am I?</h2><br>
-                <p class="text-lg">I have a passion for programming. I am always committed to growth and development which is why I spend a lot of time and resources to improve my skills  take my craft to the highest possible level.</p> 
+                <p class="text-lg">
+                    I love programming. It's challenging and rewarding. The thrill of solving problems, fixing a bug that 
+                    I've struggled with for days got me hooked. The magic of pressing a button and the computer does a lot of magic
+                    in the underground to produce a world-changing output makes believe I'll keep writing code, even if I was not being paid
+                    for it.
+                    <br><br>
+                    I started professional web development in 2020, but before then, I've been learning PHP and Java since 2016.
+                    I've learned and improved a lot since then. I've built Dashboards with Laravel and Vue JS, I've designed and implemented
+                    REST APIs with Laravel and MySQL.
+                    I'm always striving to grow and improve my skills and abilities.
+                    I dream of creating my own product that will serve people and change my country and the world for the better in one way or the other.
+                    <br>
+                    <!-- I have a passion for programming. <br>
+                    I taught myself programming when I was in the University, and created programs that solved mathemtatical equations.
+                    I enjoy solving problems, and programming gives me an avenue to do that.<br><br>
+                    I am always committed to growth and development which is why I spend my time
+                    and resources to improve my skills and take my craft to the highest possible level.</p>  -->
             </div>
             <hr class="my-10 border-line-color">
 
