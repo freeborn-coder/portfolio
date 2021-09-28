@@ -62,11 +62,10 @@ export default {
                 data.append('message',this.message);
                 data.append('subject',this.subject);
 
-                let res = 
-                        await fetch('https://ganani-mail-sender.herokuapp.com/index.php',{
-                            method:'POST',
-                            body:data
-                        });
+                let res = await fetch('https://ganani-mail-sender.herokuapp.com/index.php',{
+                    method:'POST',
+                    body:data
+                });
                 
                 res = await res.json();
                 this.successResponse = res.data.message;
