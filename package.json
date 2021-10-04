@@ -10,7 +10,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "dev": "NODE_ENV=development postcss ./src/tailwind.css -o ./public/tailwind.css -w",
+    "build:css": "NODE_ENV=development postcss ./src/tailwind.css -o ./public/tailwind.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "index.html",

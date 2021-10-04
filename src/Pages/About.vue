@@ -99,6 +99,26 @@
 
             </div>
             
+            <hr class="my-10 border-line-color">
+
+            <div class="mt-5 md:mt-0 flex justify-between items-center rounded">
+                
+               <img src="../assets/img/php.png" alt="php logo">
+               <img src="../assets/img/laravel.png" alt="php logo">
+               <div class="rounded pt-1" style="background-color:white">
+                   <img class="" src="../assets/img/mysql.png" alt="php logo">
+                </div>
+               <img src="../assets/img/javascript.png" alt="php logo">
+               <img src="../assets/img/vue.png" alt="php logo">
+               <img src="../assets/img/tailwind.png" alt="php logo">
+               <div class="rounded pt-2" style="background-color:white">
+               <img src="../assets/img/css.png" alt="php logo">
+               </div>
+               <img src="../assets/img/html.png" alt="php logo">
+               <!-- <img src="../assets/img/figma.jpeg" alt="php logo"> -->
+
+            </div>
+            
         </div>
 
     </main>
