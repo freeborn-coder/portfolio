@@ -21,8 +21,9 @@
                     I've learned and improved a lot since then. I've built Dashboards with Laravel and Vue JS, I've designed and implemented
                     REST APIs with Laravel and MySQL.
                     I'm always striving to grow and improve my skills and abilities.
-                    I dream of creating my own product that will serve people and change my country and the world for the better in one way or the other.
-                    <br>
+                    I dream of creating a product that will serve people and change my country and the world for the better in one way or the other.
+                </p>
+                    <!-- <br> -->
                     <!-- I have a passion for programming. <br>
                     I taught myself programming when I was in the University, and created programs that solved mathemtatical equations.
                     I enjoy solving problems, and programming gives me an avenue to do that.<br><br>
