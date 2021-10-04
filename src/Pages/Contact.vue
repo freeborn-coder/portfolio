@@ -68,7 +68,7 @@ export default {
                 });
                 
                 res = await res.json();
-                this.successResponse = res.data.message;
+                this.successResponse = res.message;
 
             }catch(err){
                 console.log(err);
