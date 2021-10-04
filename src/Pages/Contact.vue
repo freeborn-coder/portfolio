@@ -25,6 +25,7 @@
         <br>
     </main>
     <Footer />
+    <div v-if="loading" class="loader"></div>
 </template>
 
 <script>
@@ -41,7 +42,8 @@ export default {
             message:'',
             email:'',
             errorResponse:'',
-            successResponse:''
+            successResponse:'',
+            loading:false
         }
     },
     watch:{
@@ -54,7 +56,7 @@ export default {
     },
     methods:{
         async sendEmail(){
-
+            this.loading = true;
             try{
                 let data = new FormData();
                 data.append('email',this.email);
@@ -73,6 +75,8 @@ export default {
             }catch(err){
                 console.log(err);
                 this.errorResponse = 'There was a problem. Try again';
+            }finally{
+                this.loading = false;
             }
             
         }

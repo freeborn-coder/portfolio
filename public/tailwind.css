@@ -989,6 +989,44 @@ video {
 	color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
+.loader {
+	position: fixed;
+	top: 2.5rem;
+	right: 2.5rem;
+	height: 5rem;
+	width: 5rem;
+}
+
+@-webkit-keyframes spin {
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.loader {
+	-webkit-animation: spin 1s linear infinite;
+	        animation: spin 1s linear infinite;
+	border-width: 4px;
+	--tw-border-opacity: 1;
+	border-color: rgba(238, 238, 238, var(--tw-border-opacity));
+    
+    border-radius:50%;
+
+    border-top: 4px solid #FE332E;
+    /* border-top: 4px solid #d711b6; */
+    /* border-bottom: 4px solid #d711b6; */
+
+    /* animation: spin 2s linear infinite; */
+}
+
 .hover\:bg-gray-100:hover {
 	--tw-bg-opacity: 1;
 	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
