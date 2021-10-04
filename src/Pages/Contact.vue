@@ -76,8 +76,6 @@ export default {
                 this.subject = '';
                 this.message = '';
                 this.email = '';
-                this.errorResponse = '';
-                this.successResponse = '';
                 
             }catch(err){
                 console.log(err);
