@@ -71,6 +71,7 @@ export default {
                 this.successResponse = res.data.message;
 
             }catch(err){
+                console.log(err);
                 this.errorResponse = 'There was a problem. Try again';
             }
             
