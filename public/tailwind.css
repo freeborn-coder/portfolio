@@ -993,8 +993,8 @@ video {
 	position: fixed;
 	top: 2.5rem;
 	right: 2.5rem;
-	height: 5rem;
-	width: 5rem;
+	height: 2rem;
+	width: 2rem;
 }
 
 @-webkit-keyframes spin {
