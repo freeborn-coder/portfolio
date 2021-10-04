@@ -72,6 +72,13 @@ export default {
                 res = await res.json();
                 this.successResponse = res.message;
 
+                this.fullname = '';
+                this.subject = '';
+                this.message = '';
+                this.email = '';
+                this.errorResponse = '';
+                this.successResponse = '';
+                
             }catch(err){
                 console.log(err);
                 this.errorResponse = 'There was a problem. Try again';
