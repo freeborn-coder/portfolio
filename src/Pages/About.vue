@@ -14,7 +14,7 @@
                 <p class="text-lg">
                     I love programming. It's challenging and rewarding. The thrill of solving problems, fixing a bug that 
                     I've struggled with for days got me hooked. The magic of pressing a button and the computer does a lot of magic
-                    in the underground to produce a world-changing output makes believe I'll keep writing code, even if I was not being paid
+                    in the background to produce a world-changing output makes me believe I'll keep writing code, even if I was not being paid
                     for it.
                     <br><br>
                     I started professional web development in 2020, but before then, I've been learning PHP and Java since 2016.
@@ -35,7 +35,7 @@
             <h2 class="font-bold text-2xl">Work History</h2><br>
             <div class="flex items-center cursor-pointer" onclick="location.href = 'https://adscerts.com/scholar/8E39106A70539BF8'">
                 <div class="w-1/10 bg-red-500">
-                    <img class="h-[100px] rounded" src="https://media-exp1.licdn.com/dms/image/C4D0BAQE8sISjiw_6aA/company-logo_100_100/0/1570014936073?e=1636588800&v=beta&t=nR2KOEUUMCXvFeV82JWx0H4Tl9zZn4kvYT4gzeBIeCI" alt="Dreamlabs Abuja">
+                    <img class="h-[100px] rounded" src="@/assets/img/dreamlabs.jpg" alt="Dreamlabs Abuja">
                 </div>
                 <div class="ml-5 w-2/3">
                     <p class="text-lg font-semibold mb-1">DreamLabs Nigeria Limited</p> 
@@ -46,7 +46,7 @@
             <br>
             <div class="flex items-center cursor-pointer" onclick="location.href = 'https://adscerts.com/scholar/8E39106A70539BF8'">
                 <div class="w-1/10 bg-red-500">
-                    <img class="h-[100px] rounded" src="https://media-exp1.licdn.com/dms/image/C4D0BAQE8sISjiw_6aA/company-logo_100_100/0/1570014936073?e=1636588800&v=beta&t=nR2KOEUUMCXvFeV82JWx0H4Tl9zZn4kvYT4gzeBIeCI" alt="Dreamlabs Abuja">
+                    <img class="h-[100px] rounded" src="@/assets/img/dreamlabs.jpg" alt="Dreamlabs Abuja">
                 </div>
                 <div class="ml-5 w-2/3">
                     <p class="text-lg font-semibold mb-1">DreamLabs Nigeria Limited</p> 
@@ -61,7 +61,7 @@
                 <h2 class="font-bold text-2xl">Education</h2><br>
                 <div class="flex items-center">
                     <div class="w-1/10 bg-red-500">
-                        <img class="h-[100px] rounded" src="https://media-exp1.licdn.com/dms/image/C560BAQEm7WalJhcSvQ/company-logo_200_200/0/1588655594918?e=1635984000&v=beta&t=cKU4yazReFTYcuHXefCOFkcq7kU33V4a8d359aOhrbE" alt="university of Port Harcourt">
+                        <img class="h-[100px] rounded" src="@/assets/img/uniport.jpg" alt="university of Port Harcourt">
                     </div>
                     <div class="ml-5 w-2/3">
                         <p class="text-lg font-semibold mb-1">University of Port Harcourt</p> 
@@ -76,8 +76,19 @@
             <div class="mt-5 md:mt-0 pb-4">
                 <h2 class="font-bold text-2xl">Certifications</h2><br>
                 <div class="flex items-center cursor-pointer" onclick="location.href = 'https://www.udemy.com/certificate/UC-57656dce-128d-4168-b64c-5717f6e1dbc3/'">
-                    <div class="w-1/10 bg-red-500">
-                        <img class="h-[100px] rounded" src="https://media-exp1.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_200_200/0/1626275253364?e=1635984000&v=beta&t=uZ28psnLhedfRnUpbhVe64VERjMqagOadj5zeapcRrs" alt="udemy">
+                    <div class="w-1/10 ">
+                        <img class="h-[100px] rounded" src="@/assets/img/aws.jpg" alt="udemy">
+                    </div>
+                    <div class="ml-5 w-2/3">
+                        <p class="text-lg font-semibold mb-1">Amazon Web Services (AWS)</p> 
+                        <p class="mb-1">AWS Certified Cloud Pracitioner</p>
+                        <p>Issued Nov 2021Expires Nov 2024</p>
+                    </div>
+                </div>
+                <br>
+                <div class="flex items-center cursor-pointer" onclick="location.href = 'https://www.udemy.com/certificate/UC-57656dce-128d-4168-b64c-5717f6e1dbc3/'">
+                    <div class="w-1/10">
+                        <img class="h-[100px] rounded" src="@/assets/img/udemy.jpg" alt="udemy">
                     </div>
                     <div class="ml-5 w-2/3">
                         <p class="text-lg font-semibold mb-1">Udemy</p> 
@@ -88,7 +99,7 @@
                 <br>
                 <div class="flex items-center cursor-pointer" onclick="location.href = 'https://adscerts.com/scholar/8E39106A70539BF8'">
                     <div class="w-1/10 bg-red-500">
-                        <img class="h-[100px] rounded" src="https://media-exp1.licdn.com/dms/image/C4D0BAQEx8fTz8QFKvw/company-logo_200_200/0/1615318650285?e=1635984000&v=beta&t=gsw4G746sGF7dLWehM65xWu3g8ebSPjXpnFSS1_d8Bg" alt="Google developers">
+                        <img class="h-[100px] rounded" src="@/assets/img/google-developers.jpg" alt="Google developers">
                     </div>
                     <div class="ml-5 w-2/3">
                         <p class="text-lg font-semibold mb-1">Google Developers</p> 
