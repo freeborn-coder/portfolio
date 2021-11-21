@@ -82,7 +82,7 @@
                     <div class="ml-5 w-2/3">
                         <p class="text-lg font-semibold mb-1">Amazon Web Services (AWS)</p> 
                         <p class="mb-1">AWS Certified Cloud Pracitioner</p>
-                        <p>Issued Nov 2021Expires Nov 2024</p>
+                        <p>Issued Nov 2021, Expires Nov 2024</p>
                     </div>
                 </div>
                 <br>
